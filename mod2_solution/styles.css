@@ -1,0 +1,8 @@
+@media (min-width: 992px){
+ #chicken,#beef,#sushi{
+ float: left;
+ border: 1px solid black;
+ margin: 2px;
+ width: 33.33%;
+ }
+ 
