@@ -11,12 +11,13 @@
     border-color: white;
 }
 @media (min-width: 576px){
-    #food {
+    #food,#idk {
         display: none;
     }
 }
 #food{
    border-bottom: 1px solid white;
+   width: 100%;
    text-align: center;
 }
 #menu{
@@ -24,13 +25,9 @@
     margin-bottom: 25px;
 }
 #chicken,#beef,#sushi{
-    background-color: gray;
-    color: honeydew;
-    text-align: left ;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 15px;
-    margin: 25px;
+    
+    /* margin: 5px; */
+    float: left;
 }
 #btt{
     position: absolute;
@@ -56,5 +53,14 @@
 
 }
 #chickenBody,#beefBody,#sushiBody{
-    padding: 20px;
+    padding: 20px;   
+}
+#food1{
+    margin: 5px;
+    background-color: gray;
+    color: honeydew;
+    text-align: left ;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 15px;
 }
